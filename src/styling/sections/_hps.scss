@@ -1,0 +1,78 @@
+.hp{
+    position: relative;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    padding: 0 7%;
+    color: white;
+    overflow: hidden;
+    background: $hp1_bg;
+    &::before{
+        @include hp_psudo;
+        z-index: -1;
+        background: $hp2_bg;
+        transition: all .7s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    }
+    &::after{
+        @include hp_psudo;
+        z-index: 0;
+        background: $hp3_bg;
+        transition: all .7s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    }
+}
+#hp1{
+    transition: background 1s;
+    .img1{
+        background-image: url("/img/cook2.png");
+    }
+    .img2{
+        background-image: url("/img/cook1.png");
+    }
+    #one{
+        opacity: 1;
+    }
+    #taher{
+        top: 50%;
+        transform: translate(0,-50%);
+        opacity: 1;
+    }
+}
+#hp2{
+    &::before{
+        top: 0;
+    }
+    .img1{
+        background-image: url("/img/photographer2.png");
+    }
+    .img2{
+        background-image: url("/img/photographer1.png");
+    }
+    #two{
+        opacity: 1;
+    }
+    #joni{
+        top: 50%;
+        transform: translate(0,-50%);
+        opacity: 1;
+    }
+}
+#hp3{
+    &::after{
+        top: 0;
+    }
+    .img1{
+        background-image: url("/img/model2.png");
+    }
+    .img2{
+        background-image: url("/img/model1.png");
+    }
+    #three{
+        opacity: 1;
+    }
+    #marie{
+        top: 50%;
+        transform: translate(0,-50%);
+        opacity: 1;
+    }
+}

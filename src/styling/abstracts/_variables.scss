@@ -1,0 +1,15 @@
+// colors
+    // backgrounds
+        // hp1
+            $hp1_primary: #1F393F;
+            $hp1_secondary: #000709;
+            $hp1_bg: radial-gradient($hp1_primary, $hp1_secondary);
+        // hp2
+            $hp2_primary: #664036;
+            $hp2_secondary: #0e0f0f;
+            $hp2_bg: radial-gradient($hp2_primary, $hp2_secondary);
+        // hp3
+            $hp3_primary: #893A40;
+            $hp3_secondary: #1B1D1C;
+            $hp3_bg: radial-gradient($hp3_primary, $hp3_secondary);
+        

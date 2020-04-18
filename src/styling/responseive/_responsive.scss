@@ -1,0 +1,20 @@
+@media only screen and (max-width: 600px){
+    .hp{
+        padding: 0 5%;
+        .focus{
+            display: block;
+            text-align: center;
+        }
+        .nav_list{
+            position: absolute;
+            visibility: hidden;
+            display: inline-flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 60%;
+        }
+    }
+    .imgs{
+        transform: translate(0,0);
+    }
+}

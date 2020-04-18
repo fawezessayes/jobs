@@ -1,0 +1,11 @@
+footer{
+    position: relative;
+    z-index: 1;
+    height: 10%;
+    @include flex;
+    justify-content: flex-start;
+    p{
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+}

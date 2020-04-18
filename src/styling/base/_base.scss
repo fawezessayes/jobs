@@ -1,0 +1,14 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+}
+html, body{
+    height: 100%;
+    position: relative;
+    z-index: -6;
+}
+#root{
+    position: relative;
+    z-index: -5;
+}

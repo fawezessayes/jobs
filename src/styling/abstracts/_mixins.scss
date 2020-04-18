@@ -1,0 +1,20 @@
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column wrap;
+}
+@mixin c_flex ($align, $justify, $direction) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    direction: $direction;
+}
+@mixin hp_psudo {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,30 @@
+img{
+    transition: .8s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.imgs{
+    height: 450px;
+    display: inline-block;
+    width: 350px;
+    margin: 2rem 0;
+    overflow: hidden;
+    &:hover > .img{
+        transform: translate(0 ,0);
+    }
+}
+.img{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    background-position: top;
+    background-size: cover;
+    transition: .6s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    cursor: pointer;
+}
+.img1{
+    transform: translate(0, 15%);
+    
+}
+.img2{
+    background-image: url("/img/cook1.png");
+    transform: translate(0, -15%);
+}
