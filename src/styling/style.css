@@ -295,11 +295,11 @@ img {
 }
 
 #hp1 .img1 {
-  background-image: url("../../img/cook2.png");
+  background-image: url("/img/cook2.png");
 }
 
 #hp1 .img2 {
-  background-image: url("../../img/cook1.png");
+  background-image: url("/img/cook1.png");
 }
 
 #hp1 #one {
@@ -318,11 +318,11 @@ img {
 }
 
 #hp2 .img1 {
-  background-image: url("../../img/photographer2.png");
+  background-image: url("/img/photographer2.png");
 }
 
 #hp2 .img2 {
-  background-image: url("../../img/photographer1.png");
+  background-image: url("/img/photographer1.png");
 }
 
 #hp2 #two {
@@ -341,11 +341,11 @@ img {
 }
 
 #hp3 .img1 {
-  background-image: url("../../img/model2.png");
+  background-image: url("/img/model2.png");
 }
 
 #hp3 .img2 {
-  background-image: url("../../img/model1.png");
+  background-image: url("/img/model1.png");
 }
 
 #hp3 #three {
